@@ -1,0 +1,290 @@
+/*Typography*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  text-transform: uppercase;
+  font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+p,
+ul,
+li,
+a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.sectors-hover > li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+.sectors-hover > ul > li:before {
+    content: "• ";
+}
+
+.case-study > li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+.case-study > ul > li:before {
+    content: "• ";
+}
+
+/*Front Page Hero*/ 
+.menu li a {
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	font-weight: 500;
+	opacity: 1;
+    font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+}
+
+
+
+nav.transparent .nav-bar {
+    border-bottom: none;
+    }
+
+.logo {
+	max-height: 150%;
+    max-width: 180px;
+}
+
+
+
+.nav-bar{ 
+	height: 100px; max-height: 100px; line-height: 97px; 
+	border-bottom: none;
+}
+
+nav.scrolled {
+	border-bottom: 1px solid #ccc;
+    display: none;
+/*	height: 80px; 
+	max-height: 80px; 
+	line-height: 77px; 
+*/}
+
+nav.outOfSight > div {
+    height: 80px; 
+    max-height: 80px; 
+    line-height: 77px; 
+}
+
+/*
+nav.scrolled > div > div {
+    line-height: 77px;
+}  */
+
+.flex-direction-nav {
+    display: none;
+}
+
+#hero-intro {
+	background-color: rgba(0,0,0,0.7);
+}
+
+.cover .align-bottom {
+	bottom: 0;
+}
+
+.hero-intro {
+	margin: 1.5em 1em;
+	opacity: 1;
+	color: #fff;
+
+}
+.lead {
+	text-transform: none;
+}
+
+.lead a {
+	text-transform: none;
+	font-size: 16px;
+} 
+
+a.btn-modal {
+	font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff!important;
+    opacity: 1;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    max-width: 100%;
+    white-space: normal;
+}
+
+.hero-link {
+	text-transform: none;
+	font-size: 16px;
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+}
+
+/*Buttons*/
+
+input[type="submit"], 
+button[type="submit"] {
+    height: 50px;
+    line-height: 48px;
+    border: none;
+    background: #171242;
+    color: #fff;
+    width: 100%;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 0 !important;
+}
+
+#login-button {
+	 border-radius: 2px!important;
+}
+#login-button:hover {
+    background: #171242;
+    color: #fff;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+@media all and (max-width: 990px) {
+
+	nav.transparent .nav-open .menu > li > div > a {
+	   color: #292929!important;
+    }
+
+
+}
+
+.image-caption .caption {
+    width: 100%;
+    bottom: 0;
+    padding: 16px;
+    color: #fff; 
+    background-color: #171242;
+    opacity: 0.8;
+}
+
+div.caption {
+	text-align: left;
+}
+
+.image-caption.hover-caption:hover .caption {
+    top:0;
+}
+
+h4,
+h3 {
+    font-weight: bold;
+    text-transform: none;
+}
+
+#expertise {
+    background-color: #f5f6f6;
+/*    background-color: rgb(211,237,248);
+*/
+    background: url(../img/baynard-logo-dark-2.png) no-repeat;
+    background-size: 50%;
+    background-position: 70% 20%;
+}
+
+div.sectors {
+    min-height: 200px;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    padding: 18px;
+    background-color: #fff;
+margin: 0 1.5em;
+}
+
+div.sectors h4 {
+    color: #171242;
+/*    color: rgb(190,30,45);*/
+}
+
+div.sectors:hover {
+    color: #fff;
+    border: 1px solid #fff;
+background-color: #171242;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 2s ease;
+}
+
+div.sectors:hover > h4 {
+    color: #fff;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+}
+
+div.sectors:hover > ul > li {
+    color: #fff;
+}
+
+
+.sectors-hover a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+    margin-left: 0.7em;
+    margin-top: 0.2em;
+}
+.sectors-hover a:after {
+    content: ' >';
+}
+
+.sectors-logo {
+    display: none;
+}
+
+div.sectors:hover .sectors-logo {
+    display: inline;
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    padding: 1em 2em;
+    max-width: 100px;
+}
+
+
+@media all and (max-width: 990px) { 
+
+div.sectors {
+        margin: 1em 1.5em;
+}
+}
