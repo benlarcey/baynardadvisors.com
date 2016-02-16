@@ -216,7 +216,7 @@ h3 {
     background-color: #f5f6f6;
 /*    background-color: rgb(211,237,248);
 */
-    background: url(../img/baynard-logo-dark-2.png) no-repeat;
+    background: #f5f6f6 url(../img/baynard-logo-dark-2.png) no-repeat;
     background-size: 50%;
     background-position: 70% 20%;
 }
